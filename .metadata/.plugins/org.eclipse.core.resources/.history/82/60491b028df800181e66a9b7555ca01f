@@ -1,0 +1,16 @@
+package com.Annotations;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
+
+public class Annotations_BrowserLaunch 
+{
+
+
+@BeforeTest
+public void SetUp() 
+{
+	FirefoxDriver driver = new FirefoxDriver();
+	driver.get("http://facebook.com");
+}
+}

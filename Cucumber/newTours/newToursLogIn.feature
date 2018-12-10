@@ -1,0 +1,9 @@
+Feature: newTours application login functionality test
+ 
+Scenario: newTours application login functionality validation
+
+Given  open the browser and navigate to newTours application
+
+When  user enters vaild username and password and click on the signin button
+
+Then  user should sucessfully login and close the application

@@ -1,0 +1,14 @@
+package com.MonsterApplication;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class MonsterApplication {
+
+	public static void main(String[] args) 
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://my.monsterindia.com/sponsered_popup.html");
+
+	}
+
+}

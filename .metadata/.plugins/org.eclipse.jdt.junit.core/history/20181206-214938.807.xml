@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="cucumber" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.TestRunner.Runner" time="0.001">
+    <testsuite name="Feature: newTours application login functionality test" time="0.001">
+      <testcase name="Scenario: newTours application login functionality validation" classname="Scenario: newTours application login functionality validation" time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>
